@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HOCH PLANE |Our Recipes</title>
+        <link rel='shortcut icon' href='favicon.png'/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <style>
+    body {
+    background: ghostwhite;
+        font-family: 'Roboto Condensed', sans-serif;
+        }
+    .log img{
+        float:left;
+        width: 120px;
+        transition: .5s;
+    }
+
+    #blog-landing {
+    margin-top: 15%;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    }
+    img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    }
+    .white-panel {
+    position: absolute;
+    background: white;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    padding: 10px;
+    }
+    .white-panel h1 {
+    font-size: 1em;
+    }
+    .white-panel h1 a {
+    color: #A92733;
+    }
+    .white-panel:hover {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    margin-top: -5px;
+    transition: all 0.3s ease-in-out;
+    }
+    .pagination a{
+      margin: 6px 1px;
+      display: inline-block;
+      width: 60px;
+      background: #2c3e50;
+      height: 60px;
+      line-height: 60px;
+      color: #fff;
+      font-weight: 600;
+      transition: 0.3s;
+      position: relative;
+      padding-right: 26px;
+    }
+
+    .pagination a:hover{
+      color: #e74c3c;
+    }
+    .pagination a::before,.pagination a:after{
+      content: "";
+      position: absolute;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+    .wrapper{
+        width: 100%;
+    }
+
+
+    .mega_menu{
+        width: 100%;
+        height: 60px;
+        top: 30px;
+    }
+
+    .mega_menu ul{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        float: left;
+        line-height: 59px;
+        position: relative;
+    }
+
+    .mega_menu ul li{
+        display: inline-block;
+        margin: 0 15px;
+        padding: 0 15px;
+    }
+
+    .mega_menu ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .wrapper .banner_img img{
+        width: 100%;
+        height: 500px;
+    }
+
+    .mega_menu ul li .sub_menu{
+        position: absolute;
+        background: #2c2c2c;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        padding: 25px 15px;
+        display: flex;
+        justify-content: space-around;
+        visibility: hidden;
+        line-height: 24px;
+    }
+
+
+    .mega_menu ul li:hover{
+        background: #2c2c2c;
+    }
+
+    .mega_menu ul li:hover a{
+        color: #ca914e;
+    }
+
+    .mega_menu ul li:hover .sub_menu{
+        visibility: visible;
+    }
+
+    .mega_menu ul li .sub_menu .col img{
+        width: 250px;
+        height: 180px;
+        display: block;
+    }
+
+    .mega_menu ul li .sub_menu p{
+        color: #fff;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .mega_menu ul li .sub_menu h4{
+        color: #ca914e;
+    }
+    h1{
+        text-align: center;
+        padding-top: 5%;
+        margin: 0;
+        color: black;
+    }
+
+    </style>
+
+    </head>
+<!-- NAVBAR
+================================================== -->
+    <body>
+
+       <div class="wrapper">
+                <nav class="mega_menu" style="display: flex;">
+                    <div class="log" >
+                        <img src="images/woom.png" alt="hoch_logo">
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="city.html">Cities</a>
+                            <div class="sub_menu">
+                                <div class="col">
+                                    <img src="images/fish.jpeg" alt="ROOM">
+                                    <p>The best hotels only</p>
+
+                                </div>
+                                <div class="col">
+                                    <img src="images/room.jpeg" alt="foot_Ball">
+                                    <p>Nice Rooms </p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/séne.jpeg" alt="foot_Ball">
+                                    <p>with nice scenes</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/faci1.jpg" alt="foot_Ball">
+                                    <p>good facilities</p>
+                                </div>
+
+                            <li><a href="food.html">Food</a>
+                                <div class="sub_menu">
+                                    <div class="col">
+                                        <img src="images/res1.jpg" alt="ROOM">
+                                        <p>best Restaurants</p>
+                                    </div>
+                                        <div class="col">
+                                            <img src="images/res2.jpeg" alt="foot_Ball">
+                                            <p> Restaurants</p>
+                                        </div>
+                                        <div class="col">
+                                            <img src="images/res3.jpeg" alt="foot_Ball">
+                                            <p>tasty food</p>
+                                        </div>
+                                        <div class="col">
+                                            <img src="images/res4.jpeg" alt="foot_Ball">
+                                            <p>diffrent food</p>
+                                        </div>
+                                </div>
+                        </li>
+
+                        <li><a href="plane.html">P-Reservation</a></li>
+                        <li><a href="booking_hotels.html">H-Reservation</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="#">tech</a>
+                            <div class="sub_menu tech">
+                                <div class="col">
+                                    <h4>The best way to predict the future is to invent it.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quibusdam ipsum dicta commodi, ipsa praesentium laboriosam sit quos rem molestias illo, nisi labore deleniti officiis doloremque perferendis laborum cupiditate totam.</p>
+                                </div>
+                                <div class="col">
+                                    <h4>The best way to predict the future is to invent it.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quibusdam ipsum dicta commodi, ipsa praesentium laboriosam sit quos rem molestias illo, nisi labore deleniti officiis doloremque perferendis laborum cupiditate totam.</p>
+                                </div>
+                                <div class="col">
+                                    <h4>The best way to predict the future is to invent it.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quibusdam ipsum dicta commodi, ipsa praesentium laboriosam sit quos rem molestias illo, nisi labore deleniti officiis doloremque perferendis laborum cupiditate totam.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+            <div class="container marketing">
+                <h1>Famous Food</h1>
+                <section id="blog-landing">
+
+                    <article class="white-panel wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                        <img src="images/tajine.jpg" alt="ALT">
+                        <h2>
+                            Tajine
+                        </h2>
+
+                        <p>tajine or tagine is a type of dish found in the North African cuisines of Morocco, which is named after the special pot in which it is cooked. The traditional tajine pot is formed entirely of a heavy clay which is sometimes painted or glazed. It consists of two parts; a base unit which is flat and circular with low sides, and a large cone or dome-shaped cover that rests inside the base during cooking. The cover is designed to promote the return of all condensation to the bottom. With the cover removed, the base can be taken to the table for serving.</p>
+                    </article>
+
+
+                    <article class="white-panel wow slideInUp" data-wow-duration="0.7s" data-wow-delay="0.7s"> <img src="images/cous.jfif" alt="ALT">
+                        <h2>Couscous</h2>
+                        <p>Couscous is originally a Berber dish and for this reason couscous is a staple dish in many North African countries. In Morocco, we have different types and versions of couscous but if you mention “couscous” in Morocco, people will usually assume that you are referring to the most basic version of the famous dish: the 7 vegetables couscous.
+
+                            The 7 vegetables couscous is composed of semolina grains (granules of durum wheat), topped with vegetables and meat cooked in a super tasty and comforting broth. </p>
+                    </article>
+                    <article class="white-panel wow slideInDown" data-wow-duration="0.9s" data-wow-delay="0.9s"> <img src="images/maakouda.jpg" alt="ALT">
+                        <h2>Maakouda</h2>
+                        <p>Maakouda is a delicious potato fritters prepared by nearly all Moroccan families. It is a crispy and spicy disc shape fritters made of mashed potatoes mixed with some herbs and spices, dipped in whipped eggs and then fried. </p>
+                    </article>
+                    <article class="white-panel wow slideInRight" data-wow-duration="1s" data-wow-delay="1s"> <img src="images/Zalouk.jpg" alt="ALT">
+                        <h2>Zalouk</h2>
+                        <p>Zalouk (also spelled zaalouk) is a common side dish and typically served with crusty bread. The spread is made with eggplants, tomatoes, garlic, olive oil and spices.     </p>
+                    </article>
+                    <article class="white-panel wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s"> <img src="images/charmoula.jpg" alt="ALT">
+                        <h2>Fish Chermoula</h2>
+                        <p>Chermoula is a mix of herbs and spices used when grilling or baking fish and seafood. Depending on the mix, you’ll get flavors of onion, coriander, chili peppers, or saffron. Often times you’ll see it as a dipping sauce too. </p>
+                    </article>
+                    <article class="white-panel wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s"> <img src="images/harira.jpg" alt="ALT">
+                        <h2>Harira</h2>
+                        <p>Harira is basically a Moroccan lentil soup usually served as a starter or used during Ramadan to break the fast at dusk. </p>
+
+                    </article>
+                    <article class="white-panel wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"> <img src="images/bastila.jpg" alt="ALT">
+                        <h2>Bastila Chicken OR Pigeon Pie</h2>
+                        <p> If you love the mix of sweet and salty flavors than you definitely need to try bastilla (also spelled pastilla). This flaky pie is traditionally made with pigeon, but more commonly served with chicken now.
+                        </p>
+                    </article>
+                    <article class="white-panel wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"> <img src="images/khobze.jpg" alt="ALT">
+                        <h2>Khobze</h2>
+                        <p>This crusty bread is typically baked in communal wood-fired ovens and served with a lot of meals. Also, be sure to check out all the other breads in Morocco, like the harcha (a buttery bread), rghaif (a flaky flat bread), or baghira (spongy crumpet).</p>
+                    </article>
+                    <article class="white-panel wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"> <img src="images/tea.jpg" alt="ALT">
+                        <h2>Mint Tea</h2>
+                        <p>Everyone has his or her own version of mint tea, which is the drink of choice in Morocco. It’s a green tea base with lots of mint leaves and sugar.</p>
+                    </article>
+                    <article class="white-panel wow slideInDown" data-wow-duration="1s" data-wow-delay="1s"> <img src="images/kabab.jpg" alt="ALT">
+                        <h2>Brochettes</h2>
+                        <p>These tasty kebabs are rubbed in salt and spices and can be found in a lot of the markets. </p>
+
+                    </article>
+                    <article class="white-panel wow slideInUp" data-wow-duration="1.5s" data-wow-delay="1.5s"> <img src="images/snail.jpg" alt="ALT">
+                        <h2>Snail Soup</h2>
+                        <p>Snail soup is a Moroccan dish you can find all over the country. Use a toothpick to pick out the snails from the shells then slurp up to the soup.
+
+                        </p>
+                    </article>
+                    <article class="white-panel wow slideInLeft" data-wow-duration="1.7s" data-wow-delay="1.7s"> <img src="images/tangia.jpg" alt="ALT">
+                        <h2>Tangia</h2>
+                        <p>Tangia, like tagine, is a clay pot. These dishes are named after the cooking vessels they use. It’s traditionally filled with chunks of beef or lamb and a bunch of spices, then slow cooked in the embers of a furnace.
+
+                        </p>
+                    </article>
+                    <article class="white-panel wow bounceInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"> <img src="images/chebakia.jpg" alt="ALT">
+                        <h2>Chebakia</h2>
+                        <p>delicious dessert, shebakia is a flower-shaped, fried sesame cookie dipped in honey. You’ll usually find bees all over them in the markets, and they just shoo them away before serving them to you. </p>
+                    </article>
+                    <article class="white-panel wow slideInUp" data-wow-duration="1.5s" data-wow-delay="1s"> <img src="images/pasta.jpg" alt="ALT">
+                        <h2>Moroccan Pasta Meatballs</h2>
+                        <p>This basic Moroccan pasta sauce uses fresh tomatoes and Moroccan spices. Well-seasoned meatballs are an optional, but common addition.</p>
+                    </article>
+                    <article class="white-panel wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1.5s"> <img src="images/kefta.jpg" alt="ALT">
+                        <h2>Kefta Metaballs Tagine</h2>
+                        <p>This classic Moroccan dish features well-seasoned meatballs cooked in a spicy tomato sauce. Eggs are an optional but classic addition.</p>
+                    </article>
+                    <article class="white-panel wow slideInUp" data-wow-duration="1s" data-wow-delay="1s"> <img src="images/humburg.jpg" alt="ALT">
+                        <h2>Moroccan Style Humburgers</h2>
+                        <p>Mildly seasoned kefta is used to make a Moroccan style hamburger. Links to homemade hamburger roll and homemade condiment recipes.</p>
+                    </article>
+                    <article class="white-panel wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s"> <img src="images/briwat.jpg" alt="ALT">
+                        <h2>Tradition Kefta Briouat</h2>
+                        <p>This is the traditional, mildly seasoned ground beef filling for the Moroccan pastries known as briouats. The pastries can be folded into triangles or cylinders before being fried.</p>
+                    </article>
+
+                    <article class="white-panel wow slideInDown" data-wow-duration="1.5s" data-wow-delay="1s"> <img src="images/sandw.jpg" alt="ALT">
+                        <h2>Kefta stuffed Rolls</h2>
+                        <p>Soft sandwich rolls are stuffed with seasoned ground beef and olive filling. Shape them small for tea time or Ramadan fare.</p>
+                    </article>
+
+                </section>
+            </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/pinterest_grid.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script>
+                $(document).ready(function() {
+
+                    $('#blog-landing').pinterest_grid({
+                        no_columns: 4,
+                        padding_x: 10,
+                        padding_y: 10,
+                        margin_bottom: 50,
+                        single_column_breakpoint: 700
+                    });
+
+                });
+
+            </script>
+
+    </body>
+
+</html>
+
+
+
+
+
+

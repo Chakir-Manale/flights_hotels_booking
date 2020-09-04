@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"rel="stylesheet">
+    <link href="assets/css/bootstrap4/bootstrap.min.css">
+    <title>HOCH PLAN |Oujda city</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+
+        .card{
+            margin-top: 2rem;
+            /* width: 560px; */
+            background: #f1f1f1;
+            position: initial;
+            top: 70%;
+            /* left: 50%; */
+            /* transform: translate(-50%,-50%);*/
+                }
+        .top-section{
+            /* height: 300px; */
+            overflow: hidden;
+            background: #fff;
+            position: relative;
+        }
+        .top-section h2{
+            font-size: 5rem;
+        }
+        #image-container{
+          width: 100%;
+          height: 240px;
+        }
+        .nav{
+          text-align: center;
+        }
+        .nav img{
+          width: 80px;
+          height: 50px;
+          border: 1px solid #ddd;
+          margin: 8px 2px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        .nav img:hover{
+          border-color: #6ab04c;
+        }
+        .price{
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          color: #0B5345;
+          font-size: 24px;
+        }
+        .product-info{
+          padding: 24px;
+        }
+        .name{
+          text-transform: uppercase;
+          font-size: 24px;
+          color: #333;
+        }
+        .dis{
+          font-size: 16px;
+          opacity: 0.7;
+        }
+        .btn{
+          display: block;
+          background: #0B5345;
+          text-align: center;
+          color: #fff;
+          padding: 10px;
+          margin-top: 10px;
+          transition: 0.3s;
+        }
+        .btn:hover{
+          background: #333;
+        }
+        </style>
+</head>
+
+<body>
+
+
+<div class="container">
+    <main class="">
+        <div class="menu">
+            <nav  style="display: flex;">
+                <div class="log" >
+                    <img src="images/woom.png" alt="hoch_logo">
+                </div>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Services</a></li>
+                    <li><a href="plane.html">Plane</a></li>
+                    <li><a href="booking_hotels.html">Hotel</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="city.html">Gallery</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+
+    <div class="card">
+        <div class="top-section">
+            <h2 class="text-center bg-warning">IBIS Hotel  Oujda</h2>
+            <img id="image-container" src="images/ibis ibis.jpg" alt="">
+            <div class="nav">
+                <img onclick="change_img(this)" src="images/ibis-oujdacham1.jpg" alt="">
+                <img onclick="change_img(this)" src="images/ibis-Oujdachamb2.jpg" alt="">
+                <img onclick="change_img(this)" src="images/ibis-oujdacham3.jpg" alt="">
+                <img onclick="change_img(this)" src="images/ibis-oujdacham4.jpg" alt="">
+
+            </div>
+        <p>The ibis Oujda hotel welcomes you in the heart of the city in its complex of 81 budget rooms.<br>Each of them has air conditioning, a bathroom, an office area and free and unlimited WiFi connection.
+
+            You can relax in its bar, on its terrace or in its outdoor swimming pool and eat an all-you-can-eat buffet for breakfast and international and  Moroccan dishes in its restaurant. <br>Located 1 km from the medina, our establishment promises you a stay rich in discoveries.
+        </p>
+        <br>
+        <div class="product-info">
+            <div class="name">IBIS Hotel  Oujda</div>
+            <div class="dis">Good Facilities</div>
+            <div class="dis">Price : MAD $ EUR </div>
+            <a class="btn" href="views/ReservationVH.html">BOOK NOW</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13869290.756501947!2d-4.777282401562491!3d31.93220127885518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!5e0!3m2!1sfr!2sma!4v1586124305573!5m2!1sfr!2sma" width="2000" height="300"  style="border:0;    width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0" ;></iframe>
+            </div>
+        </div>
+        <br> <br>
+        <div class="social_media">
+            <ul>
+                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+            <p class="text-center">Hoch Plane - Copyright ©2020 </p>
+        </div>
+    </div>
+
+</div>
+
+
+    <script type="text/javascript">
+        var container = document.getElementById("image-container");
+        function change_img(image) {
+            container.src = image.src;
+        }
+    </script>
+
+</body>
+</html>
